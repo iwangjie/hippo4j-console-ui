@@ -293,8 +293,8 @@
               <el-input-number
                 v-model="temp.livenessAlarm"
                 placeholder="活跃度报警"
-                :min="30"
-                :max="90"
+                :min="1"
+                :max="1000"
               />
             </el-form-item>
           </el-col>
@@ -323,8 +323,8 @@
               <el-input-number
                 v-model="temp.capacityAlarm"
                 placeholder="容量报警"
-                :min="30"
-                :max="90"
+                :min="1"
+                :max="1000"
               />
             </el-form-item>
           </el-col>
